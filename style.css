@@ -35,6 +35,7 @@
 body {
   /*shorthand - backgroun d: color image repeat position/size*/
   background: var(--color-inverse) var(--bg-img) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -188,4 +189,15 @@ footer a {
 
 footer a:hover {
   color: var(--text-color);
+}
+
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-img: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-img: url(./assets/bg-desktop-light.jpg);
+  }
 }
