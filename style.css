@@ -33,7 +33,6 @@
 }
 
 body {
-  /*shorthand - backgroun d: color image repeat position/size*/
   background: var(--color-inverse) var(--bg-img) no-repeat top center/cover;
   height: 100vh;
 }

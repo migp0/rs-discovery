@@ -7,22 +7,16 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "foto do cara durante o dia")
+    img.setAttribute("alt", "foto de perfil do mig")
   } else {
     img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("alt", "cara durante a noite")
+    img.setAttribute("alt", "foto de perfil do mig em tons de cinza")
   }
 }
 
 //set user name to data:::
 let userName = "mig"
 document.getElementById("username").innerHTML = userName
-
-// function setUserName() {
-//   const user = "migp__"
-//   html.querySelector.print()
-//   // var user = document.querySelector("#username")
-// }
 
 //subscribe action:::
 function followUser() {
