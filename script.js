@@ -23,7 +23,7 @@ function followUser() {
   alert("Let's pretend you're now following " + userName + "!")
 }
 
-//hide ebook msg:::
+//toggle ebook msg:::
 function toggleEbookMsg() {
   //show no ebook msg:::
   document.getElementById("imsg").innerHTML = "lol, no ebook here."
