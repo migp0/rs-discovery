@@ -150,6 +150,14 @@ ul li a:hover {
   border: 1px solid var(--stroke-color-hover);
 }
 
+#imsg {
+  display: block;
+  color: crimson;
+  padding: 8px;
+  text-align: center;
+  font-size: 10px;
+}
+
 /* social links */
 #social-links {
   display: flex;
