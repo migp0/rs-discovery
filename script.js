@@ -15,7 +15,9 @@ function toggleMode() {
 }
 
 //set user name to data:::
-let username = "mig"
+let userName = "mig"
+document.getElementById("username").innerHTML = userName
+
 // function setUserName() {
 //   const user = "migp__"
 //   html.querySelector.print()
